@@ -1,0 +1,15 @@
+public class NumberChecker {
+    public static void main(String[] args) {
+        int M = 30; // The integer M to be checked
+        
+        if (M % 3 == 0 && M % 5 == 0) {
+            System.out.println("Good Number");
+        } else if (M % 3 == 0) {
+            System.out.println("Bad Number");
+        } else if (M % 5 == 0) {
+            System.out.println("Poor Number");
+        } else {
+            System.out.println("-1");
+        }
+    }
+}
